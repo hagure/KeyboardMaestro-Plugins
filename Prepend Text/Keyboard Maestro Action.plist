@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Prepend Text</string>
+	<key>Title</key>
+	<string>Prepend text to %Param%to file%</string>
+	<key>Script</key>
+	<string>prependText.scpt</string>
+	<key>Icon</key>
+	<string>prependicon.png</string>
+	<key>Results</key>
+	<string>None</string>
+	<key>Author</key>
+	<string>Terry McCall</string>
+	<key>URL</key>
+	<string>http://terrymccall.info</string>
+	<key>Help</key>
+	<string>Prepend text to a file</string>
+	<key>Parameters</key>
+	<array>
+		<dict>
+			<key>Label</key>
+			<string>Text</string>
+			<key>Type</key>
+			<string>TokenText</string>
+		</dict>
+		<dict>
+			<key>Label</key>
+			<string>to file</string>
+			<key>Type</key>
+			<string>TokenString</string>
+		</dict>
+	</array>
+</dict>
+</plist>
